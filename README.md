@@ -27,9 +27,8 @@ dependencies {
 ## 本库增加的部分
 
 * 增加获取裁剪区域的RectF
-
-在onActivityResult中
-
-RectF rectF = UCrop.getCropView(result);
-
-其中result是返回的intent对象
+```
+  在onActivityResult中
+  RectF rectF = UCrop.getCropView(result);
+  其中result是返回的intent对象
+```
